@@ -1,0 +1,207 @@
+*{
+	margin: 0;padding: 0;text-decoration: none;
+}
+.nav{
+	height: 40px;
+	background-color: #333;
+}
+.topbar{
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+.topbar_l{
+    float: left;
+}
+.topbar_r{
+	float: right;
+}
+.topbar a{
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 40px;
+}
+.sep{
+	margin: 0.5em;
+	color: #424242;
+	line-height: 40px;
+}
+/*topbar finish*/
+
+.header{
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	width: 234px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+
+.header_nav{
+
+	height: 100px;
+	display: inline-block;
+	margin-left: 234px;
+}
+.header li{
+	line-height: 100px;
+	margin-left: 20px;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	
+}
+.header li a{
+	color: #333;
+	font-size: 16px;
+}
+.search{
+	height: 100px;
+	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.search_menu{
+	width: 245px;
+	height: 46px;
+	margin-top: 25px;
+	float: left;
+}
+.search_button{
+	width: 52px;
+	height: 50px;
+	margin-top: 25px;
+}
+/*header finish*/
+.box{
+	width: 1226px;
+	margin: 0 auto;
+
+}
+.site_category{
+	width: 1226px;
+	height: 460px;
+	position: relative;
+	
+}
+.site_category ul{
+	width: 234px;
+	height: 440px;
+	padding-top: 20px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.6);
+	top: 0;
+	left: 0;
+}
+.site_category img{
+	width: 1226px;
+	height: 460px;
+	
+}
+.site_category li{
+	padding-left: 30px;
+	line-height: 40px;
+	height: 42px;
+	list-style: none;
+}
+.site_category li a{
+	color: #fff;
+	font-size: 14px;
+}
+/*旋转木马幻灯片以上*/
+.font_box{
+	width: 1226px;
+	height: 170px;
+	margin: 15px auto 0;
+}
+.channel_list{
+	width: 234px;
+	background-color: #5f5750;
+	display: inline-block;
+}
+.channel_list ul{
+	width: 234px;
+	display: inline-block;
+}
+.channel_list li{
+	width: 74px;
+	height: 85px;
+	text-align: center;
+	display: inline-block;
+
+	list-style: none;
+}
+.channel_list li img{
+	height: 50px;
+	width: 50px;
+	background-color: pink;
+}
+.channel_list li a {
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	top: 50px;
+}
+.font_img{
+	margin-left: 10px;
+	display: inline-block;
+	float: right;
+}
+.font_box img{
+	width: 316px;
+	height: 170px;
+
+}
+.font_img_2{
+	margin: 0 10px;
+}
+/*以下小米闪购*/
+.xiaomishangou{
+	width: 1226px;
+	margin: 20px auto 0;
+}
+.shangou_head{
+	height: 58px;
+}
+.shangou_head h4{
+	font-weight: 400;
+	line-height: 58px;
+	color: #333;
+	font-size: 22px;
+	float: left;
+}
+.shangou_button{
+	width: 36px;
+	height: 24px;
+	float: right;
+	margin-top: 15px;
+	border: 1px solid rgb(224,224,224);
+}
+.shangou_shangpin {
+	width: 1226px;
+	height: 339px;
+	margin: 0 auto;
+}
+.shangou_shangpin div{
+	width: 234px;
+	height: 339px;
+	background-color: rgba(0,0,0,0.02);
+	display: inline-block;
+	margin-right: 9px;
+}
+.shangou_shangpin .shangou_time{
+	background-color: #f1eded;
+}
+/*.shangou_time p{
+	color: #b0b0b0;
+	font-size: 14px;
+}*/
+.shangou_shangpin .shangpin_last{
+	margin-right: 0;
+}
